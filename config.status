@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+exec ./configure --prefix=/opt/node --dest-cpu=arm64 --dest-os=linux --cross-compiling
